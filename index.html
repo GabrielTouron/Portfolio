@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Gabriel Touron</title>
+</head>
+
+<body>
+    <div class="sidenav">
+        <span><a href="" class="text-logo2">Portfolio 2019</a></span>
+        <ul>
+            <li><a href="#about">Profil</a></li>
+            <li class="dropdown-li"><button class="dropdown-btn">Réalisations</button>
+                <ul class="submenu">
+                    <li><a href="#chrono">Chronomètre</a></li>
+                    <li><a href="#oddeven">Odd/even</a></li>
+                    <li><a href="#range">Range et JS</a></li>
+                    <li><a href="#drumbass">Drumbass et JS</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </div>
+
+    <header>
+        <nav id="nav">
+            <button class="burger"><i class="material-icons">menu</i></button>
+            <a href=""class="text-logo1">Gabriel Touron</a>
+            <ul class="web">
+                <li><a href="#about">Profil</a></li>
+                <li><a href="#exercice">Réalisations</a></li>
+                <li><a href="#contact" class="customteal">Contact</a></li>
+            </ul>
+        </nav>
+            <ul id="nav-mobile" class="mobile-sidenav" style="transform: translateX(-105%);">
+                <li><a href="#about">Profil</a></li>
+                <li class="dropdown-li"><button class="dropdown-btn">Réalisations</button>
+                    <ul class="submenu">
+                        <li><a href="#chrono">Chronomètre</a></li>
+                        <li><a href="#oddeven">Odd/even</a></li>
+                        <li><a href="#range">Range et JS</a></li>
+                        <li><a href="#drumbass">Drumbass et JS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </header>
+    <main>
+        <section id="about">
+            <div class="xl space-content">
+                <div class="main-bloc ">
+                    <h1>Profil</h1>
+                    <p>Développeur Web en formation j’ai 23 ans et habite à Bordeaux. Je suis passionné par l’hardware, le code, domotique, AI, etc... Je suis également danseur de danse urbaine de haut niveau. J'ai remporté de nombreuses compétitions en France et à l’internationale. </p>
+                    <p> Grâce à la danse en 2018-2019 j'ai habité Tianjin en Chine. Aujourd’hui je parle le chinois mandarin et ai obtenu un score final de 270/300 au HSK. J'en suis très fier.</p>
+
+                    <p>Même si je suis danseur, mon cercle d’amis proches appartient plutôt au secteur scientifique. Deux très bons amis sont développeur Web et d'autres sont ingénieurs. J’ai également un cursus scientifique, et j’ai validé la première année d’IUT Génie Civil. Fort de tout ce bagage j’ai intégré la formation de développeur Web afin d’obtenir le titre professionnel Développeur Web et mobile.
+                    </p>
+                </div>
+            </div>
+            <div class="secondary-bloc md space-content">
+                <img class="img-about-before" src="img/img-about.jpg" alt="">
+                <img class="img-about-after hidden" src="img/img-about-hover.jpg" alt="">
+            </div>
+        </section>
+        <section id="#about-techno">
+            <div class="space-content">
+                <h3>Mes compétences</h3>
+                <div class="techno">
+                    <div data-aos="fade-up" data-aos-duration="200" class="card">
+                        <div class="card-logo">
+                            <img src="img/html.png" alt="html">
+                            <img src="img/css.png" alt="html">
+                            <img src="img/php.png" alt="html">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">HTML / CSS / PHP </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quasi.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="400" class="card">
+                        <div class="card-logo">
+                            <img src="img/js.png" alt="html">
+                            <img src="img/jQuery.png" alt="html">
+                            <img src="img/angular.png" alt="html">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Java Script / jQuery / Angular</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quasi.</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="800" class="card">
+                        <div class="card-logo">
+                            <img src="img/england-flag.png" alt="html">
+                            <img src="img/china-flag.png" alt="html">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title"> Anglais et Chinois </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="exercice">
+            <div class="xl space-content">
+                <h1>Réalisations</h1>
+                <div class="exo">
+                    <a target="_blank" href="Exo1-chronomètre/index.html ">
+                        <h2 id="chrono">Chronomètre</h2>
+                        <h3>Ici la date 00/00/0000</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, labore! Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Quibusdam alias cum amet mollitia tempore rerum quam
+                            voluptatibus similique officia eius!</p>
+                    </a>
+                </div>
+                <div class="exo">
+                    <a target="_blank" href="Exo0-oddEven/index.html">
+                        <h2 id="oddeven">Calculateur paire et impaire</h2>
+                        <h3>Ici la date 00/00/0000</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, labore! Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Totam consequuntur quisquam sunt recusandae cumque
+                            architecto aliquam quae, consequatur molestiae possimus?</p>
+                    </a>
+                </div>
+                <div class="exo">
+                    <a target="_blank" href="Exo2-slidermodif/index.html">
+                        <h2 id="range">Range et JS</h2>
+                        <h3>Ici la date 00/00/0000</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, labore! Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Debitis incidunt inventore expedita veritatis ipsa
+                            necessitatibus magni itaque asperiores quam tenetur!</p>
+                    </a>
+                </div>
+                <div class="exo">
+                    <a target="_blank" href="Exo3-drum-Kit/index.html">
+                        <h2 id="drumbass">Drumbass</h2>
+                        <h3>Ici la date 00/00/0000</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, labore! Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Debitis incidunt inventore expedita veritatis ipsa
+                            necessitatibus magni itaque asperiores quam tenetur!</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="contact">
+        <div class="statut">
+            <h1 class="emoji">👋🤝💻</h1>
+            <h1 class="comment">" En recherche de stage de 2 ½  mois à partir du 1er décembre 2019"</h1>
+            <div class="download">
+                <a href="cv.html" target="_blank" class="hvr-icon-down grow"> Mon CV <i
+                        class="material-icons hvr-icon">vertical_align_bottom</i></a>
+                <a href="mailto:g.touron@pm.me" class="hvr-icon-down grow"><i class="material-icons hvr-icon">send</i>
+                    Mail</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="links">
+            <ul>
+                <li><a target="_blank" href="https://www.linkedin.com/in/gabriel-touron-9a17a4192/">LinkdIn <strong>/</strong></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/soyuzdancerofficiel">Facebook <strong>/</strong></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/soyuz__/?hl=fr">Instagram <strong>/</strong></a></li>
+                <li><a target="_blank" href="https://twitter.com/Soyuzdancer">Twitter <strong>/</strong></a></li>
+                <li><a target="_blank" href="https://github.com/gt-soyuz">Git </a></li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <p>© Gabriel Touron. All rights reserved. 2019</p>
+        </div>
+    </footer>
+    <div class="sidenav-overlay"></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/removeBanner.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

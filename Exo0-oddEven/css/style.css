@@ -1,0 +1,29 @@
+.content {
+    margin-top: 150px;
+    text-align: center;
+}
+.block {
+    display:flex;
+    margin: 20px;
+    padding:20px;
+    flex-wrap: wrap;
+}
+.view {
+    margin: 20px;
+    flex-direction: row;
+    width: 15px;
+    padding:20px;
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 5px;
+}
+#even {
+    background-color: aqua;
+}
+#odd {
+    background-color: lightgreen;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2); 
+}
